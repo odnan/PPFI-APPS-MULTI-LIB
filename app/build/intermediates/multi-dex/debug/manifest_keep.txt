@@ -1,0 +1,3 @@
+# Referenced at /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:31
+-keep class id.or.ppfi.config.AppController { <init>(...); }
+

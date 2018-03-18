@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">897808323679-u9di1n5lk9d62o87m9tsp8e5bps88t1h.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://iam-prima-v2.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">897808323679</string>
+    <string name="google_api_key" translatable="false">AIzaSyCggSnVZ0EAtcOINuPd-y0HcLZF4R0IF8c</string>
+    <string name="google_app_id" translatable="false">1:897808323679:android:7c083f9026bbc1ce</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCggSnVZ0EAtcOINuPd-y0HcLZF4R0IF8c</string>
+    <string name="google_storage_bucket" translatable="false">iam-prima-v2.appspot.com</string>
+    <string name="project_id" translatable="false">iam-prima-v2</string>
+</resources>

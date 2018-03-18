@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.1.1.aar/d9c7ebc9d78134be3b35b0ed1df59b55/res/values-hdpi/values-hdpi.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "235",
+                        "endLines": "8",
+                        "endColumns": "13",
+                        "endOffsets": "507"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

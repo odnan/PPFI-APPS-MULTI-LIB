@@ -1,0 +1,3 @@
+<declare-styleable name="DefaultImageResId">
+    <attr name="default_image_resource" format="reference" />
+</declare-styleable>

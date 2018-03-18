@@ -1,0 +1,663 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:154:9-162:20
+	android:grantUriPermissions
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:158:13-47
+	android:authorities
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:156:13-60
+	android:exported
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:155:13-67
+manifest
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:1:1-189:12
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:1:1-189:12
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:1:1-189:12
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:1:1-189:12
+MERGED from [:library] /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:24.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/01fb24da25ed764c53469bb8769cea29/AndroidManifest.xml:17:1-24:12
+MERGED from [com.mikepenz:aboutlibraries:5.3.6] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/aboutlibraries-5.3.6.aar/41128014d3d4729c044aa4f65fe61d92/AndroidManifest.xml:2:1-15:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.4.7.aar/500ea46b188badbc2dbb515d6771e1cb/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.moondroid.coverflow:library:1.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.0.aar/8db35d05d007faf5c9d557e5799c83bd/AndroidManifest.xml:2:1-16:12
+MERGED from [com.mikepenz:iconics-core:2.5.4] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/iconics-core-2.5.4.aar/2dec9f6d3914118e6eb6aa48d858670a/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/37fc619607bf719d2b2de05f6f071e42/AndroidManifest.xml:17:1-31:12
+MERGED from [com.mikepenz:crossfader:1.3.2] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/crossfader-1.3.2.aar/074396dc8e652641efc97a7c67b64c55/AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:crossfadedrawerlayout:0.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/crossfadedrawerlayout-0.2.0.aar/c36eeb6473c38244b54a43f90736aaf8/AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:google-material-typeface:2.2.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/google-material-typeface-2.2.0.1.aar/b07aaef9bedf71a949d32ebcaddf956d/AndroidManifest.xml:17:1-29:12
+MERGED from [com.mikepenz:fontawesome-typeface:4.4.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/fontawesome-typeface-4.4.0.1.aar/26982ed8f4727b081d0e941d0cb0b634/AndroidManifest.xml:2:1-12:12
+MERGED from [com.mikepenz:octicons-typeface:3.0.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/octicons-typeface-3.0.0.1.aar/40c86d448ac07414ca11c68acb8205eb/AndroidManifest.xml:17:1-29:12
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/ebd5a6e440793198e9fb6643f3d1ff3d/AndroidManifest.xml:1:70-7:12
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/b0581d8bd0d59e1d6f45bfb3c00048d8/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-appindexing:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.6.0.aar/8722da3e7cfa71f6e76ea207fbfef659/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-messaging:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.6.0.aar/aa665cd4b62666d8491da9bb432a899e/AndroidManifest.xml:16:1-30:12
+MERGED from [com.android.support:recyclerview-v7:24.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.0.aar/8c9601439932a196e0f651c1fcd6ca6d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/70d3cf199c4e57bacd97c14ff97053de/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/d492b3af9d4790ee03ac829990f4c38f/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:exifinterface:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/exifinterface-25.3.1.aar/5575eef462c265943a2d1a56a435ae4b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4a490011a6ab6f58663329e55fdd6a07/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/48d4cb226121a27a5d782120277d3097/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/b21c02ea8c58ed0b593ce4c51cee2dc4/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:16:1-51:12
+MERGED from [com.google.firebase:firebase-common:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/6f980e313f7752602e95f0db449a911d/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/f0e195057b8798c2a120983e426b0254/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/53ead173bcc21026e0fd15512a84e6cb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/f68e3fbc4662bba54b494861b0749e97/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/28c63bc6ac0b7f60289350f4adbf22cb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/aed530941ffc546e8bfb86f842838cde/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb735c4c445edc7c3a486cc2f1216b3d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/e5f772fd4d5b2157d0fdfc23ceb8581c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.mikepenz:materialize:0.5.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/materialize-0.5.1.aar/0248c83d04efac9d1d24f7cfa9425ed1/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/7cc5144ce1a2009153a5a2633a54aaa3/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:1:1-189:12
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:1:1-189:12
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:1:1-189:12
+	package
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:2:5-25
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:1:1-189:12
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:1:1-189:12
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:6:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:10:5-68
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:10:22-65
+application
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:13:5-187:19
+MERGED from [com.android.support:design:24.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/01fb24da25ed764c53469bb8769cea29/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/01fb24da25ed764c53469bb8769cea29/AndroidManifest.xml:22:5-20
+MERGED from [com.mikepenz:aboutlibraries:5.3.6] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/aboutlibraries-5.3.6.aar/41128014d3d4729c044aa4f65fe61d92/AndroidManifest.xml:11:5-13:19
+MERGED from [com.mikepenz:aboutlibraries:5.3.6] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/aboutlibraries-5.3.6.aar/41128014d3d4729c044aa4f65fe61d92/AndroidManifest.xml:11:5-13:19
+MERGED from [com.github.moondroid.coverflow:library:1.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.0.aar/8db35d05d007faf5c9d557e5799c83bd/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.moondroid.coverflow:library:1.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.0.aar/8db35d05d007faf5c9d557e5799c83bd/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/37fc619607bf719d2b2de05f6f071e42/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/37fc619607bf719d2b2de05f6f071e42/AndroidManifest.xml:29:5-20
+MERGED from [com.mikepenz:google-material-typeface:2.2.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/google-material-typeface-2.2.0.1.aar/b07aaef9bedf71a949d32ebcaddf956d/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:google-material-typeface:2.2.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/google-material-typeface-2.2.0.1.aar/b07aaef9bedf71a949d32ebcaddf956d/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:octicons-typeface:3.0.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/octicons-typeface-3.0.0.1.aar/40c86d448ac07414ca11c68acb8205eb/AndroidManifest.xml:27:5-20
+MERGED from [com.mikepenz:octicons-typeface:3.0.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/octicons-typeface-3.0.0.1.aar/40c86d448ac07414ca11c68acb8205eb/AndroidManifest.xml:27:5-20
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/ebd5a6e440793198e9fb6643f3d1ff3d/AndroidManifest.xml:5:5-19
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/ebd5a6e440793198e9fb6643f3d1ff3d/AndroidManifest.xml:5:5-19
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/b0581d8bd0d59e1d6f45bfb3c00048d8/AndroidManifest.xml:12:5-20
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/b0581d8bd0d59e1d6f45bfb3c00048d8/AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.6.0.aar/8722da3e7cfa71f6e76ea207fbfef659/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-appindexing:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.6.0.aar/8722da3e7cfa71f6e76ea207fbfef659/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-messaging:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.6.0.aar/aa665cd4b62666d8491da9bb432a899e/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.6.0.aar/aa665cd4b62666d8491da9bb432a899e/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-core:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/d492b3af9d4790ee03ac829990f4c38f/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/d492b3af9d4790ee03ac829990f4c38f/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:exifinterface:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/exifinterface-25.3.1.aar/5575eef462c265943a2d1a56a435ae4b/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:exifinterface:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/exifinterface-25.3.1.aar/5575eef462c265943a2d1a56a435ae4b/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4a490011a6ab6f58663329e55fdd6a07/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4a490011a6ab6f58663329e55fdd6a07/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/48d4cb226121a27a5d782120277d3097/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/48d4cb226121a27a5d782120277d3097/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/b21c02ea8c58ed0b593ce4c51cee2dc4/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/b21c02ea8c58ed0b593ce4c51cee2dc4/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/6f980e313f7752602e95f0db449a911d/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/6f980e313f7752602e95f0db449a911d/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/f0e195057b8798c2a120983e426b0254/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/f0e195057b8798c2a120983e426b0254/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/53ead173bcc21026e0fd15512a84e6cb/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/53ead173bcc21026e0fd15512a84e6cb/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/f68e3fbc4662bba54b494861b0749e97/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/f68e3fbc4662bba54b494861b0749e97/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/28c63bc6ac0b7f60289350f4adbf22cb/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/28c63bc6ac0b7f60289350f4adbf22cb/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/aed530941ffc546e8bfb86f842838cde/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/aed530941ffc546e8bfb86f842838cde/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb735c4c445edc7c3a486cc2f1216b3d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb735c4c445edc7c3a486cc2f1216b3d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/e5f772fd4d5b2157d0fdfc23ceb8581c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/e5f772fd4d5b2157d0fdfc23ceb8581c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/7cc5144ce1a2009153a5a2633a54aaa3/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/7cc5144ce1a2009153a5a2633a54aaa3/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:17:9-41
+	android:largeHeap
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:18:9-33
+	android:icon
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:20:9-65
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:14:9-55
+activity#id.or.ppfi.carousel.main.MainActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:23:9-29:20
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:23:19-71
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:27:27-74
+activity#id.or.ppfi.carousel.menu.MemberActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:31:9-86
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:31:20-74
+activity#id.or.ppfi.main.AdvancedActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:34:9-39:15
+	android:label
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:36:13-45
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:38:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:37:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:35:13-60
+activity#id.or.ppfi.main.AdvancedActivityAthlete
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:41:9-47:15
+	android:label
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:43:13-45
+	android:exported
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:46:13-37
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:45:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:44:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:42:13-67
+activity#id.or.ppfi.user.RegisterActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:51:9-54:61
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:54:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:53:13-69
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:52:13-60
+activity#id.or.ppfi.user.LoginActivity2
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:56:9-59:15
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:58:13-69
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:57:13-58
+activity#id.or.ppfi.dashboard.WebviewActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:61:9-65:67
+	android:windowSoftInputMode
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:65:13-65
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:64:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:63:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:62:13-64
+activity#id.or.ppfi.dashboard.WellnessActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:67:9-71:67
+	android:windowSoftInputMode
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:71:13-65
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:70:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:69:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:68:13-65
+activity#id.or.ppfi.dashboard.ListWellnessActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:73:9-77:67
+	android:windowSoftInputMode
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:77:13-65
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:76:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:75:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:74:13-69
+activity#id.or.ppfi.dashboard.ListCederaActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:79:9-83:67
+	android:windowSoftInputMode
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:83:13-65
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:82:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:81:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:80:13-67
+activity#id.or.ppfi.dashboard.MealPlanActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:85:9-88:61
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:88:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:87:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:86:13-65
+activity#id.or.ppfi.group.MemberListActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:90:9-93:61
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:93:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:92:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:91:13-63
+activity#id.or.ppfi.group.ViewProfileActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:95:9-98:61
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:98:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:97:13-91
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:96:13-64
+activity#id.or.ppfi.dashboard.DetailPersonalActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:100:9-103:61
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:103:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:102:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:101:13-71
+activity#id.or.ppfi.periodization.DetailPeriodPlanActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:105:9-108:61
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:108:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:107:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:106:13-77
+activity#id.or.ppfi.dashboard.DetailWellnessActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:110:9-113:61
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:113:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:112:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:111:13-71
+activity#id.or.ppfi.authorization.ListAuthActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:117:9-120:61
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:120:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:119:13-91
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:118:13-69
+activity#id.or.ppfi.user.profile.UploadActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:122:9-124:94
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:124:13-91
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:123:13-66
+activity#id.or.ppfi.user.profile.ChangePasswordActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:126:9-128:50
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:128:13-47
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:127:13-74
+activity#id.or.ppfi.periodization.PeriodPlanActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:131:9-133:94
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:133:13-91
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:132:13-71
+activity#id.or.ppfi.user.profile.EditProfileActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:135:9-137:94
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:137:13-91
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:136:13-71
+meta-data#com.google.android.gms.version
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:139:9-141:69
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/f0e195057b8798c2a120983e426b0254/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/f0e195057b8798c2a120983e426b0254/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:141:13-66
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:140:13-58
+activity#id.or.ppfi.highlight.MainActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:143:9-146:61
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:146:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:145:13-69
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:144:13-61
+activity#id.or.ppfi.highlight.WelcomeActivity
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:148:9-152:51
+	android:screenOrientation
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:152:13-49
+	android:configChanges
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:151:13-59
+	android:theme
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:150:13-69
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:149:13-64
+receiver#id.or.ppfi.alarmservice.AlarmReceiver
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:164:9-165:20
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:164:19-71
+receiver#id.or.ppfi.alarmservice.AlarmReceiverAthlete
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:167:9-168:20
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:167:19-78
+service#id.or.ppfi.firebase.notification.service.MyFirebaseMessagingService
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:172:9-176:19
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:172:18-100
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:173:13-175:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:174:17-78
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:174:25-75
+service#id.or.ppfi.firebase.notification.service.MyFirebaseInstanceIDService
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:178:9-182:19
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:178:18-101
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:179:13-181:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:180:17-80
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:180:25-77
+uses-sdk
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+MERGED from [:library] /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:library] /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:24.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/01fb24da25ed764c53469bb8769cea29/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/01fb24da25ed764c53469bb8769cea29/AndroidManifest.xml:20:5-43
+MERGED from [com.mikepenz:aboutlibraries:5.3.6] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/aboutlibraries-5.3.6.aar/41128014d3d4729c044aa4f65fe61d92/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:aboutlibraries:5.3.6] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/aboutlibraries-5.3.6.aar/41128014d3d4729c044aa4f65fe61d92/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.4.7.aar/500ea46b188badbc2dbb515d6771e1cb/AndroidManifest.xml:8:5-10:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.4.7.aar/500ea46b188badbc2dbb515d6771e1cb/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.moondroid.coverflow:library:1.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.0.aar/8db35d05d007faf5c9d557e5799c83bd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.moondroid.coverflow:library:1.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.0.aar/8db35d05d007faf5c9d557e5799c83bd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:iconics-core:2.5.4] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/iconics-core-2.5.4.aar/2dec9f6d3914118e6eb6aa48d858670a/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:iconics-core:2.5.4] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/iconics-core-2.5.4.aar/2dec9f6d3914118e6eb6aa48d858670a/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/37fc619607bf719d2b2de05f6f071e42/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/37fc619607bf719d2b2de05f6f071e42/AndroidManifest.xml:21:5-23:78
+MERGED from [com.mikepenz:crossfader:1.3.2] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/crossfader-1.3.2.aar/074396dc8e652641efc97a7c67b64c55/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:crossfader:1.3.2] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/crossfader-1.3.2.aar/074396dc8e652641efc97a7c67b64c55/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:crossfadedrawerlayout:0.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/crossfadedrawerlayout-0.2.0.aar/c36eeb6473c38244b54a43f90736aaf8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:crossfadedrawerlayout:0.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/crossfadedrawerlayout-0.2.0.aar/c36eeb6473c38244b54a43f90736aaf8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:google-material-typeface:2.2.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/google-material-typeface-2.2.0.1.aar/b07aaef9bedf71a949d32ebcaddf956d/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:google-material-typeface:2.2.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/google-material-typeface-2.2.0.1.aar/b07aaef9bedf71a949d32ebcaddf956d/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:fontawesome-typeface:4.4.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/fontawesome-typeface-4.4.0.1.aar/26982ed8f4727b081d0e941d0cb0b634/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:fontawesome-typeface:4.4.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/fontawesome-typeface-4.4.0.1.aar/26982ed8f4727b081d0e941d0cb0b634/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:octicons-typeface:3.0.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/octicons-typeface-3.0.0.1.aar/40c86d448ac07414ca11c68acb8205eb/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mikepenz:octicons-typeface:3.0.0.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/octicons-typeface-3.0.0.1.aar/40c86d448ac07414ca11c68acb8205eb/AndroidManifest.xml:23:5-25:41
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/ebd5a6e440793198e9fb6643f3d1ff3d/AndroidManifest.xml:3:5-72
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/ebd5a6e440793198e9fb6643f3d1ff3d/AndroidManifest.xml:3:5-72
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/b0581d8bd0d59e1d6f45bfb3c00048d8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.jpardogo.googleprogressbar:library:1.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/b0581d8bd0d59e1d6f45bfb3c00048d8/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-appindexing:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.6.0.aar/8722da3e7cfa71f6e76ea207fbfef659/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.6.0.aar/8722da3e7cfa71f6e76ea207fbfef659/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.6.0.aar/aa665cd4b62666d8491da9bb432a899e/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.6.0.aar/aa665cd4b62666d8491da9bb432a899e/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:recyclerview-v7:24.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.0.aar/8c9601439932a196e0f651c1fcd6ca6d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.0.aar/8c9601439932a196e0f651c1fcd6ca6d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/70d3cf199c4e57bacd97c14ff97053de/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/70d3cf199c4e57bacd97c14ff97053de/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/d492b3af9d4790ee03ac829990f4c38f/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-core:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/d492b3af9d4790ee03ac829990f4c38f/AndroidManifest.xml:4:5-42
+MERGED from [com.android.support:exifinterface:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/exifinterface-25.3.1.aar/5575eef462c265943a2d1a56a435ae4b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:exifinterface:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/exifinterface-25.3.1.aar/5575eef462c265943a2d1a56a435ae4b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4a490011a6ab6f58663329e55fdd6a07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4a490011a6ab6f58663329e55fdd6a07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/48d4cb226121a27a5d782120277d3097/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/48d4cb226121a27a5d782120277d3097/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/b21c02ea8c58ed0b593ce4c51cee2dc4/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/b21c02ea8c58ed0b593ce4c51cee2dc4/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/6f980e313f7752602e95f0db449a911d/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/6f980e313f7752602e95f0db449a911d/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/f0e195057b8798c2a120983e426b0254/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/f0e195057b8798c2a120983e426b0254/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/53ead173bcc21026e0fd15512a84e6cb/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/53ead173bcc21026e0fd15512a84e6cb/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/f68e3fbc4662bba54b494861b0749e97/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/f68e3fbc4662bba54b494861b0749e97/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/28c63bc6ac0b7f60289350f4adbf22cb/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/28c63bc6ac0b7f60289350f4adbf22cb/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/aed530941ffc546e8bfb86f842838cde/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/aed530941ffc546e8bfb86f842838cde/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb735c4c445edc7c3a486cc2f1216b3d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb735c4c445edc7c3a486cc2f1216b3d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/e5f772fd4d5b2157d0fdfc23ceb8581c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/e5f772fd4d5b2157d0fdfc23ceb8581c/AndroidManifest.xml:21:5-23:58
+MERGED from [com.mikepenz:materialize:0.5.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/materialize-0.5.1.aar/0248c83d04efac9d1d24f7cfa9425ed1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.mikepenz:materialize:0.5.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/materialize-0.5.1.aar/0248c83d04efac9d1d24f7cfa9425ed1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/7cc5144ce1a2009153a5a2633a54aaa3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/7cc5144ce1a2009153a5a2633a54aaa3/AndroidManifest.xml:20:5-43
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/37fc619607bf719d2b2de05f6f071e42/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:159:13-161:57
+	android:resource
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:161:17-55
+	android:name
+		ADDED from /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/src/main/AndroidManifest.xml:160:17-67
+activity#com.mikepenz.aboutlibraries.ui.LibsActivity
+ADDED from [com.mikepenz:aboutlibraries:5.3.6] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/aboutlibraries-5.3.6.aar/41128014d3d4729c044aa4f65fe61d92/AndroidManifest.xml:12:9-80
+	android:name
+		ADDED from [com.mikepenz:aboutlibraries:5.3.6] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/aboutlibraries-5.3.6.aar/41128014d3d4729c044aa4f65fe61d92/AndroidManifest.xml:12:19-77
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/37fc619607bf719d2b2de05f6f071e42/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:exifinterface:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/exifinterface-25.3.1.aar/5575eef462c265943a2d1a56a435ae4b/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:exifinterface:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/exifinterface-25.3.1.aar/5575eef462c265943a2d1a56a435ae4b/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4a490011a6ab6f58663329e55fdd6a07/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4a490011a6ab6f58663329e55fdd6a07/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/48d4cb226121a27a5d782120277d3097/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/48d4cb226121a27a5d782120277d3097/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/53ead173bcc21026e0fd15512a84e6cb/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/53ead173bcc21026e0fd15512a84e6cb/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/f68e3fbc4662bba54b494861b0749e97/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/f68e3fbc4662bba54b494861b0749e97/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/28c63bc6ac0b7f60289350f4adbf22cb/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/28c63bc6ac0b7f60289350f4adbf22cb/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/aed530941ffc546e8bfb86f842838cde/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/aed530941ffc546e8bfb86f842838cde/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb735c4c445edc7c3a486cc2f1216b3d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb735c4c445edc7c3a486cc2f1216b3d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/e5f772fd4d5b2157d0fdfc23ceb8581c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/e5f772fd4d5b2157d0fdfc23ceb8581c/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/37fc619607bf719d2b2de05f6f071e42/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/37fc619607bf719d2b2de05f6f071e42/AndroidManifest.xml:26:9-47
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.6.0.aar/aa665cd4b62666d8491da9bb432a899e/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.6.0.aar/aa665cd4b62666d8491da9bb432a899e/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.6.0.aar/aa665cd4b62666d8491da9bb432a899e/AndroidManifest.xml:23:18-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/b21c02ea8c58ed0b593ce4c51cee2dc4/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/b21c02ea8c58ed0b593ce4c51cee2dc4/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/b21c02ea8c58ed0b593ce4c51cee2dc4/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/b21c02ea8c58ed0b593ce4c51cee2dc4/AndroidManifest.xml:19:19-85
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:24:17-71
+permission#id.or.ppfi.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:26:22-76
+uses-permission#id.or.ppfi.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:31:13-35:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+id.or.ppfi
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:34:27-58
+category#id.or.ppfi
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/AndroidManifest.xml:44:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/AndroidManifest.xml:6:79-124

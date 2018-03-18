@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.or.ppfi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="id.or.ppfi.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="id.or.ppfi.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="id.or.ppfi.config.AppController"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/icon_ppfi"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+
+        <!-- android:supportsRtl="true" -->
+
+        <activity android:name="id.or.ppfi.carousel.main.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="id.or.ppfi.carousel.menu.MemberActivity" />
+        <activity
+            android:name="id.or.ppfi.main.AdvancedActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="id.or.ppfi.main.AdvancedActivityAthlete"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="id.or.ppfi.user.RegisterActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="id.or.ppfi.user.LoginActivity2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="id.or.ppfi.dashboard.WebviewActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name="id.or.ppfi.dashboard.WellnessActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name="id.or.ppfi.dashboard.ListWellnessActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name="id.or.ppfi.dashboard.ListCederaActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/CustomTheme"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name="id.or.ppfi.dashboard.MealPlanActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="id.or.ppfi.group.MemberListActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="id.or.ppfi.group.ViewProfileActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus" />
+        <activity
+            android:name="id.or.ppfi.dashboard.DetailPersonalActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="id.or.ppfi.periodization.DetailPeriodPlanActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="id.or.ppfi.dashboard.DetailWellnessActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="id.or.ppfi.authorization.ListAuthActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus" />
+        <activity
+            android:name="id.or.ppfi.user.profile.UploadActivity"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus" />
+        <activity
+            android:name="id.or.ppfi.user.profile.ChangePasswordActivity"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name="id.or.ppfi.periodization.PeriodPlanActivity"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus" />
+        <activity
+            android:name="id.or.ppfi.user.profile.EditProfileActivity"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="id.or.ppfi.highlight.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="id.or.ppfi.highlight.WelcomeActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="fullUser"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="id.or.ppfi.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver android:name="id.or.ppfi.alarmservice.AlarmReceiver" >
+        </receiver>
+        <receiver android:name="id.or.ppfi.alarmservice.AlarmReceiverAthlete" >
+        </receiver>
+
+        <!-- Firebase Notifications -->
+        <service android:name="id.or.ppfi.firebase.notification.service.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="id.or.ppfi.firebase.notification.service.MyFirebaseInstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+        <activity android:name="com.mikepenz.aboutlibraries.ui.LibsActivity" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="id.or.ppfi" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="id.or.ppfi.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="id.or.ppfi.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

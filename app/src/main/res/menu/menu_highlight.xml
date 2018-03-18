@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:orderInCategory="1"
+        android:title="Refresh" />
+
+    <item
+        android:id="@+id/menu_dashbard"
+        android:orderInCategory="1"
+        android:title="Dashboard"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_generate_wellness"
+        android:orderInCategory="1"
+        android:title="Generate Wellness"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_generate_module"
+        android:orderInCategory="1"
+        android:title="Generate Modules"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:orderInCategory="1"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>

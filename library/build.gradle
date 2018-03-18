@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName '1.0'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+    lintOptions {
+        abortOnError false
+    }
+    buildToolsVersion '26.0.2'
+}
+
+apply from: 'gradle-mvn-push.gradle'
+apply from: 'gradle-jcenter-push.gradle'
+
+dependencies {
+    compile "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:recyclerview-v7:${rootProject.ext.supportLibVersion}"
+    compile "com.android.support:support-annotations:${rootProject.ext.supportLibVersion}"
+
+    // used to base on some backwards compatible themes
+    // contains util classes to support various android versions, and clean up code
+    // comes with the awesome "Holder"-Pattern
+    // https://github.com/mikepenz/Materialize
+    compile 'com.mikepenz:materialize:0.5.1@aar'
+
+    // used to provide out of the box icon font support. simplifies development,
+    // and provides scalable icons. the core is very very light
+    // https://github.com/mikepenz/Android-Iconics
+    compile 'com.mikepenz:iconics-core:2.5.4@aar'
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+}

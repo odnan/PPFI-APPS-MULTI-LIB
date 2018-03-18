@@ -1,0 +1,245 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_dashboard_wp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/explore_world_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="0.67"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="0.5"
+                    android:baselineAligned="false"
+                    android:gravity="center" >
+
+                    <LinearLayout
+                        android:id="@+id/btn_grey"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="loadGreyWP"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="3dp"
+                            android:src="@drawable/ic_grey" />
+
+                        <id.or.ppfi.helper.TextViewPlus
+                            android:id="@+id/text_percentage_grey"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Calcuating..."
+                            android:textColor="@android:color/black"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_red"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="loadRedWP"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="3dp"
+                            android:src="@drawable/ic_red" />
+
+                        <id.or.ppfi.helper.TextViewPlus
+                            android:id="@+id/text_percentage_red"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Calcuating..."
+                            android:textColor="@android:color/black"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.5"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:id="@+id/btn_orange"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="loadOrangeWP"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="3dp"
+                            android:src="@drawable/ic_orange" />
+
+                        <id.or.ppfi.helper.TextViewPlus
+                            android:id="@+id/text_percentage_orange"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Calcuating..."
+                            android:textColor="@android:color/black"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_yellow"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="loadYellowWP"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="3dp"
+                            android:src="@drawable/ic_yellow" />
+
+                        <id.or.ppfi.helper.TextViewPlus
+                            android:id="@+id/text_percentage_yellow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Calcuating..."
+                            android:textColor="@android:color/black"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.5"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:id="@+id/btn_green"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="loadGreenWP"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="3dp"
+                            android:src="@drawable/ic_green" />
+
+                        <id.or.ppfi.helper.TextViewPlus
+                            android:id="@+id/text_percentage_green"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Calcuating..."
+                            android:textColor="@android:color/black"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceSmall"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_green_arrow"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="loadGreenArrowWP"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:padding="3dp"
+                            android:src="@drawable/ic_green_arrow" />
+
+                        <id.or.ppfi.helper.TextViewPlus
+                            android:id="@+id/text_percentage_green_arrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Calcuating..."
+                            android:textColor="@android:color/black"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

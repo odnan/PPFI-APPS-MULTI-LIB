@@ -1,0 +1,85 @@
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/01fb24da25ed764c53469bb8769cea29/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/aboutlibraries-5.3.6.aar/41128014d3d4729c044aa4f65fe61d92/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.4.7.aar/500ea46b188badbc2dbb515d6771e1cb/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.0.aar/8db35d05d007faf5c9d557e5799c83bd/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/iconics-core-2.5.4.aar/2dec9f6d3914118e6eb6aa48d858670a/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/37fc619607bf719d2b2de05f6f071e42/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/crossfader-1.3.2.aar/074396dc8e652641efc97a7c67b64c55/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/crossfadedrawerlayout-0.2.0.aar/c36eeb6473c38244b54a43f90736aaf8/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/google-material-typeface-2.2.0.1.aar/b07aaef9bedf71a949d32ebcaddf956d/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/fontawesome-typeface-4.4.0.1.aar/26982ed8f4727b081d0e941d0cb0b634/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/octicons-typeface-3.0.0.1.aar/40c86d448ac07414ca11c68acb8205eb/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/ebd5a6e440793198e9fb6643f3d1ff3d/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/b0581d8bd0d59e1d6f45bfb3c00048d8/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.1.3/d97e400d31bbeb36c1c60d2c3a9bbf2cdccf85a8/httpmime-4.1.3.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.1/f5aa318bda4c6c8d688c9d00b90681dcd82ce636/httpcore-4.4.1.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.6.0.aar/8722da3e7cfa71f6e76ea207fbfef659/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.6.0.aar/aa665cd4b62666d8491da9bb432a899e/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.0.aar/8c9601439932a196e0f651c1fcd6ca6d/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/70d3cf199c4e57bacd97c14ff97053de/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/d492b3af9d4790ee03ac829990f4c38f/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/exifinterface-25.3.1.aar/5575eef462c265943a2d1a56a435ae4b/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/4a490011a6ab6f58663329e55fdd6a07/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/48d4cb226121a27a5d782120277d3097/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/b21c02ea8c58ed0b593ce4c51cee2dc4/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/6e4a37672a4261215e0f0aef8659d469/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c62b4633e2f6b05b75680402f19aa378/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/bf5ff84320ca8dfea0c02e94b6e16e24/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/063245167e90e6ace4a9a9cc00446dfa/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/6f980e313f7752602e95f0db449a911d/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/f0e195057b8798c2a120983e426b0254/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/53ead173bcc21026e0fd15512a84e6cb/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/f68e3fbc4662bba54b494861b0749e97/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/28c63bc6ac0b7f60289350f4adbf22cb/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/aed530941ffc546e8bfb86f842838cde/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/eb735c4c445edc7c3a486cc2f1216b3d/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/e5f772fd4d5b2157d0fdfc23ceb8581c/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/materialize-0.5.1.aar/0248c83d04efac9d1d24f7cfa9425ed1/jars/classes.jar(**.class)
+-injars /Users/nando.aleikhem/.gradle/caches/transforms-1/files-1.1/cardview-v7-23.1.1.aar/7cc5144ce1a2009153a5a2633a54aaa3/jars/classes.jar(**.class)
+-injars '/Applications/Android Studio.app/Contents/gradle/m2repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar'(**.class)
+-injars '/Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/library/build/intermediates/intermediate-jars/debug/classes.jar'(**.class)
+-injars '/Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/build/intermediates/classes/debug'(**.class)
+-outjars '/Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/build/intermediates/multi-dex/debug/componentClasses.jar'
+
+-libraryjars /Users/nando.aleikhem/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration '/Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/build/intermediates/multi-dex/debug/components.flags'
+
+
+# Referenced at /Users/nando.aleikhem/Documents/PPFI APPS/AWDS/PPFI-APPS-MULTI-LIB/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:31
+-keep class id.or.ppfi.config.AppController {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}
